@@ -3,3 +3,4 @@
 
 # Executables
 /system/bin/chargeonlymode                    u:object_r:charger_exec:s0
+/system/bin/hw/lineage\.livedisplay@2\.0-service-sdm                   u:object_r:shal_livedisplay_default_exec:s0
