@@ -9,9 +9,6 @@ $(call inherit-product, device/xiaomi/phoenix/device.mk)
 # Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Shipping with core GApps
-$(call inherit-product-if-exists, vendor/gapps/core/config.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_phoenix
 PRODUCT_DEVICE := phoenix
