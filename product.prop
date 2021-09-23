@@ -1,6 +1,10 @@
 # Audio
 ro.config.media_vol_default=10
 
+# Art
+dalvik.vm.dex2oat-filter=everything
+dalvik.vm.image-dex2oat-filter=everything
+
 # Bluetooth
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500
