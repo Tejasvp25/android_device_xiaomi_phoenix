@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_phoenix.mk
+    $(LOCAL_DIR)/voltage_phoenix.mk
+
+COMMON_LUNCH_CHOICES := \
+    voltage_phoenix-user \
+    voltage_phoenix-userdebug \
+    voltage_phoenix-eng
