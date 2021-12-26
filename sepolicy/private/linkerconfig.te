@@ -1,1 +1,1 @@
-allow linkerconfig linkerconfig:capability { sys_admin kill };
+dontaudit linkerconfig linkerconfig:capability { kill };
