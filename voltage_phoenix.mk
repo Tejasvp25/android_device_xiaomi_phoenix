@@ -19,4 +19,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Voltage OS Official
 VOLTAGE_BUILD_TYPE := OFFICIAL
 
+# Bromite Browser
+TARGET_SHIP_BROMITE_BROWSER = true
+
 #PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
