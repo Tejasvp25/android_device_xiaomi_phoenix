@@ -1,8 +1,7 @@
 [
     {
-        "repository":   "varunhardgamer/trb_clang",
+        "repository":   "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403b",
         "target_path":  "prebuilts/clang/host/linux-x86/clang-latest",
-	"remote": "gitlab",
-	"revision":"13"
+	"remote": "gitlab"
     }
 ]
