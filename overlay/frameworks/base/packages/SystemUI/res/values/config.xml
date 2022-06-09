@@ -34,5 +34,8 @@
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">9</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">9</integer>
+
+    <!-- Max visible system icons -->
+    <integer name="config_maxVisibleStatusIconContainer">9</integer>
 </resources>
 
