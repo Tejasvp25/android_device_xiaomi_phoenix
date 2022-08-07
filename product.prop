@@ -53,9 +53,6 @@ ro.media.recorder-max-base-layer-fps=60
 # Netflix
 ro.netflix.bsp_rev=Q6150-17263-1
 
-# Perfetto
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-
 # Radio
 DEVICE_PROVISIONED=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true
@@ -81,9 +78,11 @@ persist.sys.wfd.virtual=0
 persist.device_config.runtime_native.usap_pool_enabled=true
 
 
-# IORap
-iorapd.readahead.enable=true
-ro.iorapd.enable=true
+# App launch prefetching (IORapd)
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # Set stock DPI
 ro.sf.lcd_density=440
