@@ -1,4 +1,4 @@
-# Proprietary files - from qssi-user 11 RKQ1.200826.002-21.11.17 release-keys build, unless pinned
+# Proprietary files - from MIUI 13 dev
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -152,12 +152,9 @@ vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 
 # CarrierConfig - from sunfish 12-SQ1A.211205.008-7888514-release-keys
 product/etc/CarrierSettings/a1_at.pb|f68db2649cf6ee79d3c0ba61e547a69cd6560f05
-product/etc/CarrierSettings/ahamo_jp.pb|201e83acde24cd6c434f3a3d86a2c2d473478714
 product/etc/CarrierSettings/airtel_in.pb|58da03ed2ff96733b9a4dfe80ec244215deeaece
 product/etc/CarrierSettings/apt_tw.pb|f4c2d844fa979a2226bf858583ae0439d48582bf
-product/etc/CarrierSettings/assurance_us.pb|8958558f786465c6555327846fc50bf5130e4bbe
 product/etc/CarrierSettings/att5g_us.pb|9f2f1b4bbd46f66fde8570baae9f3b6ee43500c8
-product/etc/CarrierSettings/att5gsa_us.pb|aa604a93c87701d8e5d1a1915ea02f5717b1ab30
 product/etc/CarrierSettings/att_us.pb|04b6e13ffe451be1a7600c61d37a44a491a70a86
 product/etc/CarrierSettings/bell_ca.pb|85614fa393d383167d4d3b73b4c9edfde6ce0c95
 product/etc/CarrierSettings/bluegrass_us.pb|b03ccd5710e382594d3a7e134cec5ab86ebb80d4
@@ -172,13 +169,11 @@ product/etc/CarrierSettings/cellcommno_us.pb|e43fde0f47f2da5edf0608a02775bf31167
 product/etc/CarrierSettings/cht_tw.pb|9a859a82f4d1388ac394688fb46a62b9facf6d45
 product/etc/CarrierSettings/congstar_de.pb|009de7000c6c5e9aa2cddb2f98339fba70569582
 product/etc/CarrierSettings/consumercellulartmo_us.pb|15109676cf1fa9e2cade8a55a43f31c3adde3ea5
-product/etc/CarrierSettings/coriolis_fr.pb|8cd44a27795fb5f575a82d5b6d9c0245898f7e46
 product/etc/CarrierSettings/cricket5g_us.pb|545430f750504676565a7dae3e96e00d920d794d
 product/etc/CarrierSettings/cricket_us.pb|0de30edf3d8b608c48f270c31fa7343ed48f3db5
 product/etc/CarrierSettings/cspire_us.pb|2a0aa5fffc1bbab04a97c1fabc9bc327bc9ae16a
 product/etc/CarrierSettings/default.pb|8123e224f4cf83fb5fc58a41fe1c0671974c306d
 product/etc/CarrierSettings/docomo_jp.pb|a5fc642cd7f47497cfcf69944a32294c7eebab6f
-product/etc/CarrierSettings/docomomvno_jp.pb|fe4524255420937525e2f04eae70117ed9299785
 product/etc/CarrierSettings/ee_gb.pb|f5440b113aab50efff97766e1b3a6c23a51e09c7
 product/etc/CarrierSettings/eplus_de.pb|54a382fa532fc04ff18da347a4bf10f05ec431f0
 product/etc/CarrierSettings/esn_gb.pb|d3857a0748e7822d84f52e32479e5a53202c685f
@@ -204,16 +199,12 @@ product/etc/CarrierSettings/kddimvno_jp.pb|1f8c76132aba42426ca4e4af1f6f5e837e04c
 product/etc/CarrierSettings/kena_it.pb|e41b64a1fa951edc36fe6c0dd8fdb57a4c9de389
 product/etc/CarrierSettings/koodo_ca.pb|7ef6fab9998e7f476b439614b3b4293160e0e5a5
 product/etc/CarrierSettings/kpn_nl.pb|ea37794fd58c36a9058dfea3d3381921b1e4e0ab
-product/etc/CarrierSettings/liberty_pr.pb|8446d4960e0c188cad8ea917a8fff390264d9d70
-product/etc/CarrierSettings/linemo_jp.pb|bb56d460c56105816b27101be294103ba4d860cd
 product/etc/CarrierSettings/luckymobile_ca.pb|4da6c58402eb933ae20c68575f364d358b15b6f6
-product/etc/CarrierSettings/metropcs_us.pb|7af463a943b2911ee91e3018cb10c78a61973582
 product/etc/CarrierSettings/movistar_es.pb|289ef6c7130aecf0185dfa5d9af74c1158452e94
 product/etc/CarrierSettings/o2_de.pb|7dcd0068b6169b5b241f8048969ace62a6e4a103
 product/etc/CarrierSettings/o2postpaid_gb.pb|5713eb3370a562b679df14422b6c3c7b7fc3d999
 product/etc/CarrierSettings/o2prepaid_de.pb|ee5750391062b00a443828dfaba0e1615502bf4a
 product/etc/CarrierSettings/o2prepaid_gb.pb|8b8d91978a58185f95f1aff0f8722605dce7fb14
-product/etc/CarrierSettings/onecall_no.pb|2ff49c62014f82ddffc026c7750c9db5391ce2e0
 product/etc/CarrierSettings/optus_au.pb|500f32b6e140cfe99d8f6d935102213d936ad3c2
 product/etc/CarrierSettings/orange_es.pb|2f162699ef0ad8f257672aeae0652e0fcce45b4c
 product/etc/CarrierSettings/orange_fr.pb|d821ffe6dcec1585b6666dc486ff7b0721a59478
@@ -223,7 +214,6 @@ product/etc/CarrierSettings/povo_jp.pb|c5b6d21bcdc5e0487d371acb46c4c9733206d786
 product/etc/CarrierSettings/rakuten_jp.pb|42eeb279df106e7718e9db92f44bded910d2c77c
 product/etc/CarrierSettings/redpockettmo_us.pb|52bb8b0a42c330662d74eab66e1e510a5eb20809
 product/etc/CarrierSettings/rjio_in.pb|88ac3c887550a7b0c56a741ecb4a96ca1092d9fd
-product/etc/CarrierSettings/rogers5g_ca.pb|e7fdb705eaca25d4a26d16a10e1950ebbce13030
 product/etc/CarrierSettings/rogers_ca.pb|0102e9a21ac106054b16ff541067d9967c555611
 product/etc/CarrierSettings/sfr_fr.pb|d1b6dfb5db84bec07cb3eb9200ccd4a0d2a15c20
 product/etc/CarrierSettings/shaw_ca.pb|d4bde55c19e21d30b25d688100ab21b5f6262670
@@ -264,7 +254,6 @@ product/etc/CarrierSettings/tracfonetmo_us.pb|66c47e97d16ddddd159d2581127f8a4c95
 product/etc/CarrierSettings/tracfoneverizon_us.pb|84ce68eeaca140b508248a1106b0c393e0cc4198
 product/etc/CarrierSettings/tstar_tw.pb|93ce511dd4a019a67faaca6bb02a59cfbc0ae9c9
 product/etc/CarrierSettings/twm_tw.pb|c38fc5b575c4de283ff733614af264e1840af719
-product/etc/CarrierSettings/uqmobile_jp.pb|6c6731878f9edebf60bf54be27878ed171eb4a47
 product/etc/CarrierSettings/uscc_us.pb|d3d58aa7503dcecdb475b06da3211f579ee17904
 product/etc/CarrierSettings/verizon_us.pb|c08fe61d8f3e56f804cb3ba048ad746e76e04bc2
 product/etc/CarrierSettings/verymobile_it.pb|00fab5766cd6201ff47423afe6ac3dd0313fef52
