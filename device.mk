@@ -158,7 +158,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     android.hidl.memory.block@1.0 \
     android.hidl.memory.block@1.0.vendor \
-    libstdc++.vendor
+    libstdc++.vendor \
+    libpiex_shim
 
 # Camera
 PRODUCT_COPY_FILES += \
