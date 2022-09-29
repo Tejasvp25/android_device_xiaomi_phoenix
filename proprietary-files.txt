@@ -1003,10 +1003,7 @@ vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxSwVdec.so
-vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxWmaDec.so
-vendor/lib/libswvdec.so
 
 # Media (Software)
 system_ext/lib/libmmosal.so
