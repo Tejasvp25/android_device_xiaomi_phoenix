@@ -1,5 +1,57 @@
 # Proprietary files - from MIUI 13 dev
 
+# odm
+odm/etc/media_profiles_V1_0.xml
+
+#Extra2
+vendor/etc/audio_configs_stock.xml
+vendor/etc/audio_configs.xml
+vendor/etc/audio_effects.conf
+vendor/etc/audio_effects.xml
+vendor/etc/audio_io_policy.conf
+vendor/etc/audio_platform_info_intcodec.xml
+vendor/etc/audio_platform_info_qrd.xml
+vendor/etc/audio_platform_info.xml
+vendor/etc/audio_policy_engine_configuration_mi.xml
+vendor/etc/audio_policy_engine_configuration.xml
+vendor/etc/audio_policy_engine_default_stream_volumes_mi.xml
+vendor/etc/audio_policy_engine_default_stream_volumes.xml
+vendor/etc/audio_policy_engine_product_strategies_mi.xml
+vendor/etc/audio_policy_engine_product_strategies.xml
+vendor/etc/audio_policy_engine_stream_volumes_mi.xml
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/audio_tuning_mixer_tavil.txt
+vendor/etc/media_codecs_google_audio.xml
+vendor/etc/media_codecs_google_c2_audio.xml
+vendor/etc/media_codecs_google_c2_video.xml
+vendor/etc/media_codecs_google_c2.xml
+vendor/etc/media_codecs_google_telephony.xml
+vendor/etc/media_codecs_google_video_le.xml
+vendor/etc/media_codecs_google_video.xml
+vendor/etc/media_codecs_performance_v1.xml
+vendor/etc/media_codecs_performance_v2.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_codecs_v1.xml
+vendor/etc/media_codecs_v2.xml
+vendor/etc/media_codecs_vendor_audio.xml
+vendor/etc/media_codecs_vendor_v1.xml
+vendor/etc/media_codecs_vendor_v2.xml
+vendor/etc/media_codecs_vendor.xml
+vendor/etc/media_codecs.xml
+vendor/etc/media_profiles.xml
+vendor/etc/mixer_paths_idp.xml
+vendor/etc/mixer_paths_overlay_dynamic.xml
+vendor/etc/mixer_paths_overlay_static.xml
+vendor/etc/mixer_paths_qrd.xml
+vendor/etc/mixer_paths_tavil.xml
+vendor/etc/mixer_paths_wcd9375qrd.xml
+vendor/etc/mixer_paths_wcd9375.xml
+vendor/etc/sound_trigger_mixer_paths_qrd.xml
+vendor/etc/sound_trigger_mixer_paths_wcd9340.xml
+vendor/etc/sound_trigger_mixer_paths.xml
+vendor/etc/sound_trigger_platform_info.xml
+
+
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb
