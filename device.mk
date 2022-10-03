@@ -156,6 +156,7 @@ PRODUCT_PACKAGES += \
     libxml2 \
     GCamGOPrebuilt \
     vendor.qti.hardware.camera.device@1.0.vendor \
+    vendor.qti.hardware.camera.device@2.0.vendor \
     android.hidl.memory.block@1.0 \
     android.hidl.memory.block@1.0.vendor \
     libstdc++.vendor \
