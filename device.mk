@@ -550,7 +550,11 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    lib-imsvt
+    lib-imsvt \
+    libui_shim \
+    libmemset_shim \
+    libcutils_shim \
+    libgui_shim_defaults
 
 # Soter
 PRODUCT_PACKAGES += \
