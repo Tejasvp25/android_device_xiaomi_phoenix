@@ -734,4 +734,8 @@
         <item>115</item> <!--item>sensorRadius</item-->
     </array>
 
+    <!-- Rounded corner masks -->
+    <dimen name="config_rounded_mask_size">156px</dimen>
+    <dimen name="config_rounded_mask_size_top">156px</dimen>
+    <dimen name="config_rounded_mask_size_bottom">156px</dimen>
 </resources>
