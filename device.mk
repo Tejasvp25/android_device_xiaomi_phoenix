@@ -19,6 +19,11 @@ $(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
 
 $(call inherit-product-if-exists, vendor/miuicamera/config.mk)
 
+# ART Debugging (Disable)
+USE_DEX2OAT_DEBUG := false
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+
 PRODUCT_BUILD_SUPER_PARTITION := false
 BOARD_BUILD_PRODUCT_IMAGE := true
 PRODUCT_SHIPPING_API_LEVEL := 29
