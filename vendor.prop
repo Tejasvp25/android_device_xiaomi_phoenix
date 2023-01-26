@@ -207,6 +207,7 @@ persist.rcs.supported=0
 
 # Skia
 renderthread.skia.reduceopstasksplitting=true
+debug.hwui.renderer=opengl
 
 # Data modules
 persist.vendor.data.mode=concurrent
