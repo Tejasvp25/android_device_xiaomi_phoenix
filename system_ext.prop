@@ -18,3 +18,6 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 persist.vendor.service.bdroid.sibs=false
+
+# Zygote critical window
+zygote.critical_window.minute=10
