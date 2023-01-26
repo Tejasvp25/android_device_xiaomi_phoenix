@@ -127,6 +127,7 @@ on boot
     chown system system /sys/class/thermal/thermal_message/sconfig
 #disable qcom qc3p5
     setprop persist.vendor.cp.support_qc3p5 0
+    write /dev/cpuset/audio-app/cpus 1-2
 
 # Add a cpuset for the camera daemon
 # We want all cores for camera
