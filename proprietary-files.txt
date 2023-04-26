@@ -356,7 +356,6 @@ system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so
 system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so
-vendor/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti.so
 -vendor/app/CneApp/CneApp.apk
 -vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
@@ -1358,6 +1357,7 @@ system_ext/framework/qti-telephony-common.jar
 system_ext/lib/vendor.qti.hardware.radio.am@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.lpa@1.0.so
+system_ext/lib/vendor.qti.hardware.radio.lpa@1.2.so
 system_ext/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.qtiradio@1.0.so
 system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.0.so
@@ -1375,6 +1375,7 @@ system_ext/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.lpa@1.0.so
+system_ext/lib64/vendor.qti.hardware.radio.lpa@1.2.so
 system_ext/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
@@ -1440,6 +1441,7 @@ vendor/lib/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so
+vendor/lib/vendor.qti.hardware.radio.lpa@1.2.so
 vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0.so
 vendor/lib/vendor.qti.hardware.radio.qtiradio@2.0.so
@@ -1488,6 +1490,7 @@ vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so
