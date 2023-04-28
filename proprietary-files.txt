@@ -68,30 +68,21 @@ vendor/lib/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
-# Audio
-vendor/lib/hw/audio.primary.sm6150.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libaudioroute_ext.so
-vendor/lib/libdrc.so
-vendor/lib/libqtigef.so
-vendor/lib/libssrec.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib64/hw/audio.primary.sm6150.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudioconfigstore.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libaudioroute_ext.so
-vendor/lib64/libqtigef.so
-vendor/lib64/libssrec.so
+# Audio HAL
+-vendor/lib/hw/audio.primary.sm6150.so
+-vendor/lib/libaudio_log_utils.so
+-vendor/lib/libaudioparsers.so
+-vendor/lib/libaudioroute_ext.so
+-vendor/lib/libqtigef.so
+-vendor/lib/vndk/libxlog.so
+
+# Audio extensions
+-vendor/lib/btaudio_offload_if.so
+-vendor/lib/liba2dpoffload.so
+-vendor/lib/libhdmiedid.so
+-vendor/lib/libhfp.so
+-vendor/lib/libsndmonitor.so
+-vendor/lib/libspkrprot.so
 
 # Audio (speaker amplifier) firmware
 vendor/firmware/tfa98xx.cnt
@@ -99,59 +90,32 @@ vendor/firmware/tfa98xx.cnt
 # Audio FX modules
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libdirac.so
-vendor/lib/soundfx/libmisoundfx.so
-vendor/lib/soundfx/libshoebox.so
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libdirac.so
-vendor/lib64/soundfx/libshoebox.so
-
-# Audio extensions
-vendor/lib/liba2dpoffload.so
-vendor/lib/libbatterylistener.so
-vendor/lib/libcirrusspkrprot.so
-vendor/lib/libcomprcapture.so
-vendor/lib/libexthwplugin.so
-vendor/lib/libhdmiedid.so
-vendor/lib/libhdmipassthru.so
-vendor/lib/libhfp.so
-vendor/lib/libsndmonitor.so
-vendor/lib/libspkrprot.so
-vendor/lib64/liba2dpoffload.so
-vendor/lib64/libbatterylistener.so
-vendor/lib64/libcirrusspkrprot.so
-vendor/lib64/libcomprcapture.so
-vendor/lib64/libexthwplugin.so
-vendor/lib64/libhdmiedid.so
-vendor/lib64/libhdmipassthru.so
-vendor/lib64/libhfp.so
-vendor/lib64/libsndmonitor.so
-vendor/lib64/libspkrprot.so
+vendor/lib/libstagefright_soft_qtiflacdec.so
+-vendor/lib/soundfx/libasphere.so
+-vendor/lib/soundfx/libmisoundfx.so
+-vendor/lib/soundfx/libshoebox.so
+-vendor/lib/soundfx/libswvqe.so
+-vendor/lib64/soundfx/libswvqe.so
 
 # Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/libbt-hidlclient.so
-vendor/lib64/libbtnv.so
-
-# Bluetooth (A2DP)
-vendor/lib/btaudio_offload_if.so
-vendor/lib/hw/audio.bluetooth_qti.default.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
-vendor/lib/libbluetooth_audio_session_qti.so
-vendor/lib/libbluetooth_audio_session_qti_2_1.so
-vendor/lib64/libsoc_helper.so
-
-# Bluetooth (Configstore)
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-
-# Bluetooth (SAR)
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
+-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
+-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
+-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
+-vendor/lib/libbluetooth_audio_session_qti.so
+-vendor/lib/libbluetooth_audio_session_qti.so
+-vendor/lib/libbluetooth_audio_session_qti_2_1.so
+-vendor/lib/libbluetooth_audio_session_qti_2_1.so
+-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
+-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+-vendor/lib64/libbtnv.so
+-vendor/lib64/libsoc_helper.so
+-vendor/lib64/libsoc_helper_jni.so
+-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # CarrierConfig - from sunfish-user-13-TP1A.220905.004-8927612-release-keys
 product/etc/CarrierSettings/a1_at.pb
